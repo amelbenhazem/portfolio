@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio — Amel Ben Hazem
 
-## Getting Started
+Portfolio personnel en **Next.js 14** (App Router) + **TypeScript** + **Tailwind CSS** + **Framer Motion**, prêt à déployer sur Vercel.
 
-First, run the development server:
+## Stack
+
+- Next.js 14 (App Router)
+- TypeScript (strict)
+- Tailwind CSS
+- Framer Motion
+- Lucide React (icônes)
+
+## Démarrage local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrir [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Déploiement Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Pousser le repo sur GitHub
+2. Importer le projet sur [vercel.com](https://vercel.com)
+3. Déployer — aucune configuration supplémentaire requise
 
-## Learn More
+## Structure du projet
 
-To learn more about Next.js, take a look at the following resources:
+```
+portfolio/
+├── app/
+│   ├── layout.tsx       # Layout racine, fonts, SEO metadata
+│   ├── page.tsx         # Page d'accueil (assemblage des sections)
+│   └── globals.css      # Styles globaux Tailwind
+├── components/
+│   ├── Navbar.tsx       # Navigation sticky + menu mobile
+│   ├── Hero.tsx         # Section hero avec animations
+│   ├── About.tsx        # À propos + stats animées
+│   ├── Skills.tsx       # Grille de compétences
+│   ├── SkillCard.tsx    # Carte compétence individuelle
+│   ├── Projects.tsx     # Grille de projets
+│   ├── ProjectCard.tsx  # Carte projet individuelle
+│   ├── Contact.tsx      # Section contact
+│   ├── ContactForm.tsx  # Formulaire contrôlé (EmailJS/Resend ready)
+│   ├── Footer.tsx       # Pied de page
+│   ├── SocialIcons.tsx  # Icônes sociales réutilisables
+│   ├── SectionHeading.tsx
+│   └── AnimatedSection.tsx
+├── lib/
+│   └── data.ts          # Données centralisées (projets, skills, contact)
+└── public/
+    ├── images/          # Illustrations SVG + mockups projets
+    └── cv.pdf           # Votre CV (à ajouter)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Personnalisation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Données** : modifier `lib/data.ts`
+- **CV** : placer votre fichier PDF dans `public/cv.pdf`
+- **Formulaire** : intégrer EmailJS ou Resend (instructions dans `ContactForm.tsx`)
+- **Couleurs** : palette dans `tailwind.config.ts`
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Email : amelbenhazem@gmail.com
+- LinkedIn : [linkedin.com/in/amal-ben-hazem](https://linkedin.com/in/amal-ben-hazem)
+- GitHub : [github.com/amelbenhazem](https://github.com/amelbenhazem)

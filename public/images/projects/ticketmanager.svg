@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" fill="none">
+  <rect width="800" height="420" fill="#141925"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="48" fill="#0B0F19"/>
+  <circle cx="24" cy="24" r="8" fill="#9EDEEE" opacity="0.8"/>
+  <circle cx="48" cy="24" r="8" fill="#9CB7CA" opacity="0.6"/>
+  <circle cx="72" cy="24" r="8" fill="#9FA7A9" opacity="0.4"/>
+  <rect x="300" y="18" width="200" height="12" rx="6" fill="#202731"/>
+  <!-- Sidebar -->
+  <rect x="0" y="48" width="180" height="372" fill="#0B0F19"/>
+  <rect x="20" y="70" width="140" height="10" rx="5" fill="#9EDEEE" opacity="0.8"/>
+  <rect x="20" y="95" width="120" height="8" rx="4" fill="#374151"/>
+  <rect x="20" y="115" width="120" height="8" rx="4" fill="#374151"/>
+  <rect x="20" y="135" width="120" height="8" rx="4" fill="#374151"/>
+  <rect x="20" y="155" width="120" height="8" rx="4" fill="#374151"/>
+  <!-- Ticket cards -->
+  <rect x="200" y="70" width="280" height="80" rx="8" fill="#202731" stroke="#374151"/>
+  <rect x="215" y="85" width="80" height="8" rx="4" fill="#9EDEEE"/>
+  <rect x="215" y="100" width="200" height="6" rx="3" fill="#9FA7A9"/>
+  <rect x="215" y="115" width="150" height="6" rx="3" fill="#374151"/>
+  <rect x="400" y="85" width="60" height="20" rx="10" fill="#9EDEEE" opacity="0.2"/>
+  <text x="430" y="99" text-anchor="middle" fill="#9EDEEE" font-size="10">Open</text>
+  <rect x="500" y="70" width="280" height="80" rx="8" fill="#202731" stroke="#374151"/>
+  <rect x="515" y="85" width="80" height="8" rx="4" fill="#9CB7CA"/>
+  <rect x="515" y="100" width="200" height="6" rx="3" fill="#9FA7A9"/>
+  <rect x="515" y="115" width="150" height="6" rx="3" fill="#374151"/>
+  <rect x="200" y="170" width="280" height="80" rx="8" fill="#202731" stroke="#374151"/>
+  <rect x="215" y="185" width="80" height="8" rx="4" fill="#9EDEEE"/>
+  <rect x="215" y="200" width="200" height="6" rx="3" fill="#9FA7A9"/>
+  <rect x="500" y="170" width="280" height="80" rx="8" fill="#202731" stroke="#374151"/>
+  <rect x="515" y="185" width="80" height="8" rx="4" fill="#9EDEEE"/>
+  <!-- Chart area -->
+  <rect x="200" y="270" width="580" height="130" rx="8" fill="#202731" stroke="#374151"/>
+  <polyline points="230,370 280,320 330,340 380,280 430,300 480,260 530,290 580,250 630,270 680,240 730,260" stroke="#9EDEEE" stroke-width="2" fill="none"/>
+  <text x="400" y="30" text-anchor="middle" fill="#F7F7F7" font-size="14" font-weight="bold">TicketManager Dashboard</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" fill="none">
+  <rect width="800" height="420" fill="#141925"/>
+  <text x="400" y="40" text-anchor="middle" fill="#F7F7F7" font-size="16" font-weight="bold">ImmoConnect</text>
+  <!-- Property cards grid -->
+  <rect x="40" y="60" width="220" height="160" rx="8" fill="#0B0F19" stroke="#374151"/>
+  <rect x="50" y="70" width="200" height="90" rx="4" fill="#202731"/>
+  <rect x="50" y="170" width="120" height="8" rx="4" fill="#9EDEEE"/>
+  <rect x="50" y="188" width="80" height="6" rx="3" fill="#9FA7A9"/>
+  <rect x="290" y="60" width="220" height="160" rx="8" fill="#0B0F19" stroke="#374151"/>
+  <rect x="300" y="70" width="200" height="90" rx="4" fill="#202731"/>
+  <rect x="300" y="170" width="120" height="8" rx="4" fill="#9CB7CA"/>
+  <rect x="300" y="188" width="80" height="6" rx="3" fill="#9FA7A9"/>
+  <rect x="540" y="60" width="220" height="160" rx="8" fill="#0B0F19" stroke="#374151"/>
+  <rect x="550" y="70" width="200" height="90" rx="4" fill="#202731"/>
+  <rect x="550" y="170" width="120" height="8" rx="4" fill="#9EDEEE"/>
+  <!-- Search bar -->
+  <rect x="40" y="250" width="720" height="50" rx="25" fill="#0B0F19" stroke="#9EDEEE" stroke-width="1"/>
+  <rect x="60" y="268" width="200" height="14" rx="7" fill="#374151"/>
+  <rect x="620" y="263" width="120" height="24" rx="12" fill="#9EDEEE"/>
+  <text x="680" y="279" text-anchor="middle" fill="white" font-size="11">Rechercher</text>
+  <!-- Map placeholder -->
+  <rect x="40" y="320" width="720" height="80" rx="8" fill="#202731"/>
+  <circle cx="200" cy="360" r="8" fill="#9EDEEE"/>
+  <circle cx="400" cy="350" r="8" fill="#9EDEEE"/>
+  <circle cx="600" cy="365" r="8" fill="#9EDEEE"/>
+</svg>
