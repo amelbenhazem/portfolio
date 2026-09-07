@@ -1,6 +1,7 @@
 "use client";
 
 import type { ComponentType } from "react";
+import { siteConfig } from "@/lib/data";
 import { GitHubIcon, InstagramIcon, LinkedInIcon } from "./icons/BrandIcons";
 
 type IconName = "linkedin" | "github" | "instagram";
@@ -18,19 +19,19 @@ const icons: Record<
 > = {
   linkedin: {
     Icon: LinkedInIcon,
-    href: "https://linkedin.com/in/amal-ben-hazem",
+    href: siteConfig.linkedin,
     label: "LinkedIn",
     color: "hover:text-[#0A66C2]",
   },
   github: {
     Icon: GitHubIcon,
-    href: "https://github.com/amelbenhazem",
+    href: siteConfig.github,
     label: "GitHub",
     color: "hover:text-surface",
   },
   instagram: {
     Icon: InstagramIcon,
-    href: "https://instagram.com",
+    href: siteConfig.instagram,
     label: "Instagram",
     color: "hover:text-[#E4405F]",
   },

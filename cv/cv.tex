@@ -1,0 +1,200 @@
+\documentclass[10pt,a4paper]{altacv}
+
+\geometry{left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+\definecolor{VividPurple}{HTML}{78b3de}
+\definecolor{SlateGrey}{HTML}{13161c}
+\definecolor{LightGrey}{HTML}{6b5051}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\definecolor{DarkGrey}{HTML}{4D4D4D}
+\colorlet{body}{DarkGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\addbibresource{sample.bib}
+
+\begin{document}
+
+\name{BEN HAZEM AMEL}
+\tagline{Étudiante en Génie Logiciel et Systèmes d'Information}
+\photo{4.5cm}{imagee.jpeg}
+\personalinfo{
+  \email{amelbenhazem@gmail.com}\\
+  \phone{+216 51 019 482 / +216 29 391 923}\\
+  \location{Ben Arous, Mornag}\\
+  \linkedin{linkedin.com/in/amal-ben-hazem}\\
+  \github{github.com/amelbenhazem}
+}
+\makecvheader
+
+\cvsection{Profil}
+Ingénieure logicielle en devenir, actuellement en dernière année du cycle d'ingénieur en Génie Logiciel et Systèmes d'Information à Tekup.
+Passionnée par l'innovation et l'automatisation, je transforme les idées en solutions logicielles concrètes et performantes.
+Curieuse et proactive, je maîtrise les technologies modernes du développement web, de la conteneurisation et du déploiement d'applications.
+Je suis à la recherche d'un stage PFE stimulant où je pourrai mettre en pratique mes compétences en DevOps, CI/CD, Kubernetes et monitoring, tout en contribuant à des projets ambitieux et innovants.
+
+\cvsection{Formation}
+
+\cvevent{Cycle d'ingénieur en Génie Logiciel et Systèmes d'Information (cours du soir)}{Université Tekup}{Présent}{Ariana, Tunisie}
+\cvevent{Licence en Technologies de l'Information et de la Communication (Télécommunications)}{ISTIC (Institut Supérieur des Technologies de l'Information et de la Communication)}{2023}{Borj Cédria, Tunisie}
+\cvevent{Baccalauréat en Informatique}{Lycée Chebbi Mornag}{2018}{Mornag, Tunisie}
+
+\cvsection{Expériences professionnelles}
+
+\cvevent{Projet de fin d'année - AutoRemise – Application web de gestion bancaire}{Shamash Information Technology}{Juillet -- Août 2025}{Centre Urbain Nord, Tunis}
+\begin{itemize}
+  \item Développement d'une PWA automatisant la génération de PDF de remise bancaire à partir de fichiers Excel.
+  \item Création de templates personnalisés pour plusieurs banques tunisiennes.
+\end{itemize}
+\textbf{Technologies :} Next.js, React, Tailwind CSS, Framer Motion, PDF-lib, XLSX, TypeScript, next-pwa
+
+\vspace{1em}
+
+\cvevent{Projet de fin d'études – Solution d'automatisation pour la préparation de la chimiothérapie}{ASQII}{Février -- Mai 2023}{Le Kram}
+\begin{itemize}
+  \item Développement d'une solution automatisée optimisant la préparation de traitements en chimiothérapie (UI Figma, Qt, C++).
+\end{itemize}
+
+\vspace{1em}
+
+\cvevent{Projet de fin d'année – Armoire de stockage automatique sécurisée}{ASQII}{Juillet -- Septembre 2022}{Le Kram}
+\begin{itemize}
+  \item Développement d'une armoire de stockage automatisée et sécurisée (Qt, Arduino).
+\end{itemize}
+
+\vspace{1em}
+
+\cvevent{Stage d'observation}{STEG}{Août -- Septembre 2020}{Tunis}
+\begin{itemize}
+  \item Observation des activités liées à la téléphonie, fibre optique et antennes radioélectriques.
+\end{itemize}
+
+\cvsection{Projets académiques}
+
+\cvevent{}{Projet DevOps – Déploiement et monitoring d'une application Next.js}{2025}{Projet académique}
+\begin{itemize}
+  \item Déploiement Next.js conteneurisé sur k3s avec CI/CD GitHub Actions
+  \item Gestion des secrets Supabase et reverse proxy Nginx
+  \item Monitoring Prometheus/Grafana et dépannage Kubernetes (pods, rollout, scale)
+  \item \textbf{Technologies : Docker, Kubernetes (k3s), GitHub Actions, Nginx, Supabase (PostgreSQL, Auth, Storage), Prometheus, Grafana, node-exporter, kube-state-metrics, DigitalOcean.}
+\end{itemize}
+
+\cvevent{}{Chat Application MERN avec CI/CD Docker/EC2}{2025}{Projet académique}
+\begin{itemize}
+  \item Développement d'une application de chat MERN (MongoDB, Express, React, Node.js) conteneurisée avec Docker.
+  \item Orchestration multi-services (frontend, backend, base de données) via Docker Compose.
+  \item Pipeline CI/CD avec GitLab pour build, tests automatisés et déploiement sur EC2.
+  \item Gestion des secrets, tests unitaires frontend et débogage de containers.
+  \item \textbf{Technologies : MERN Stack, Docker, Docker Compose, GitLab CI/CD, EC2, Yarn.}
+\end{itemize}
+
+\cvevent{}{Solution médicale web – e-Care}{2025}{Projet académique}
+\begin{itemize}
+  \item Plateforme web centralisant les données médicales, messagerie sécurisée et prise de rendez-vous.
+  \item \textbf{Technologies : NestJS, Nuxt.js, PostgreSQL.}
+\end{itemize}
+
+\cvevent{}{Kanban Flow – Gestion de tâches}{2025}{Projet académique}
+\begin{itemize}
+  \item Tableau Kanban avec tâches en temps réel, suggestions IA et chatbot.
+  \item \textbf{Technologies : React, Node.js, WebSocket, MongoDB.}
+\end{itemize}
+
+\cvevent{}{ImmoConnect – Plateforme immobilière}{2025}{Projet académique}
+\begin{itemize}
+  \item Gestion des annonces (vente/location), recherche avancée, planification des visites et dashboard pour agents.
+  \item \textbf{Technologies : ASP.NET Core Web API, MySQL, Repository/Service Pattern.}
+\end{itemize}
+
+\cvevent{}{BookManager – Application de gestion de livres}{2024}{Projet académique}
+\begin{itemize}
+  \item CRUD, notation par étoiles, commentaires et tableau de bord administrateur.
+  \item \textbf{Technologies : Angular, Guards, Reactive Forms.}
+\end{itemize}
+
+\cvevent{}{Restaurant Management System}{2024}{Projet académique}
+\begin{itemize}
+  \item Système complet de gestion de restaurant : menu, commandes, tables, personnel et clients.
+  \item \textbf{Technologies : NestJS, GraphQL, TypeORM, MySQL, Swagger.}
+\end{itemize}
+
+\cvevent{}{Plateforme e-commerce agricole – Senyetna}{2024}{Projet académique}
+\begin{itemize}
+  \item Vente en ligne de produits agricoles avec avis clients et statistiques.
+  \item \textbf{Technologies : Symfony, PostgreSQL, Chart.js.}
+\end{itemize}
+
+\cvsection{Compétences Techniques}
+
+\textbf{Langages de Programmation :}
+\cvtag{Java} \cvtag{Python} \cvtag{JavaScript} \cvtag{TypeScript}
+
+\divider
+
+\textbf{Frameworks \& Bibliothèques :}
+\cvtag{Spring Boot} \cvtag{Symfony} \cvtag{Django} \cvtag{NestJS} \cvtag{Express.js}
+\cvtag{React} \cvtag{Angular} \cvtag{Next.js} \cvtag{Nuxt.js} \cvtag{Ionic}
+\cvtag{Bootstrap} \cvtag{Tailwind CSS} \cvtag{Swagger} \cvtag{Node.js} \cvtag{.NET} \cvtag{PHP}
+
+\divider
+
+\textbf{DevOps, Cloud \& Systèmes :}
+\cvtag{Linux} \cvtag{Git} \cvtag{GitHub} \cvtag{GitLab CI/CD} \cvtag{Docker}
+\cvtag{Kubernetes} \cvtag{Helm} \cvtag{Nginx} \cvtag{Prometheus} \cvtag{Grafana}
+\cvtag{Terraform} \cvtag{Ansible} \cvtag{CI/CD Automation} \cvtag{Monitoring}
+\cvtag{Cloud (AWS, DigitalOcean)} \cvtag{Virtualisation} \cvtag{Réseaux IP} \cvtag{Load Balancing}
+
+\divider
+
+\textbf{Tests \& Qualité Logicielle :}
+\cvtag{JUnit} \cvtag{PyTest} \cvtag{Jest} \cvtag{Selenium} \cvtag{Automatisation des Tests} \cvtag{Qualité Logicielle} \cvtag{API REST}
+
+\divider
+
+\textbf{Big Data \& Intelligence Artificielle :}
+\cvtag{Machine Learning} \cvtag{Deep Learning} \cvtag{Apprentissage Automatique}
+\cvtag{Fouille de Données} \cvtag{Traitement d'Image} \cvtag{Recherche Intelligente} \cvtag{TensorFlow} \cvtag{PyTorch}
+
+\divider
+
+\textbf{Bases de Données :}
+\cvtag{MySQL} \cvtag{PostgreSQL} \cvtag{SQL Server} \cvtag{SQLite} \cvtag{Oracle} \cvtag{MongoDB} \cvtag{Redis} \cvtag{Supabase}
+
+\divider
+
+\textbf{Architecture \& Design :}
+\cvtag{MVC} \cvtag{MVP} \cvtag{MVVM}
+\cvtag{Design Patterns} \cvtag{Clean Architecture}
+
+\divider
+
+\textbf{Web \& Marketing Digital :}
+\cvtag{SEO} \cvtag{Analyse du Trafic Web} \cvtag{Optimisation de Contenu} \cvtag{Google Analytics} \cvtag{Social Media Analytics}
+
+\cvsection{Langues}
+\begin{itemize}
+  \item \textbf{Arabe :} Langue maternelle
+  \item \textbf{Français :} Courant
+  \item \textbf{Anglais :} Courant
+  \item \textbf{Allemand :} Niveau scolaire
+\end{itemize}
+
+\cvsection{Vie associative}
+
+\cvevent{Club Croissant Rouge Tunisien ISTIC}{Volontaire et Responsable Communication et Marketing}{2020 -- 2023}{}
+\cvevent{Club MakerLabs ISTIC}{Responsable Ressources Humaines}{2021 -- 2023}{}
+\cvevent{ISTIC Google Club}{Membre}{2018 -- 2020}{}
+\cvevent{Jeune Chambre Internationale Mornag}{Membre}{2020 -- 2021}{}
+\cvevent{Spark ISTIC}{Coach Junior à la fondation BIAT pour la jeunesse}{2020 -- 2021}{}
+
+\cvsection{Centres d'intérêt}
+Sport \quad Musique \quad Lecture \quad Développement personnel \quad Cuisine
+
+\end{document}

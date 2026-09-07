@@ -80,7 +80,11 @@ export default function Hero() {
             variants={itemVariants}
             className="mt-8 flex flex-wrap gap-4"
           >
-            <a href="/cv.pdf" download className="btn-primary">
+            <a
+              href="/cv.pdf"
+              download="Amel-Ben-Hazem-CV.pdf"
+              className="btn-primary"
+            >
               <Download size={18} />
               Download CV
             </a>
