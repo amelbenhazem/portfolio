@@ -1,10 +1,10 @@
 # Hi, I'm Amel Ben Hazem 👋
 
-### Junior Software Engineer | Cloud & DevOps | Full Stack Developer
+### Software Engineer | Cloud & DevOps | Full Stack Developer
 
 🎓 Engineering graduate in Software Engineering and Information Systems (GLSI) – Tek-up University, Tunisia.
 
-I'm a junior software engineer passionate about building scalable web applications, cloud infrastructure, automation and DevOps practices.
+I'm a software engineer passionate about building scalable web applications, cloud infrastructure, automation and DevOps practices.
 
 I enjoy developing full-stack applications and implementing CI/CD pipelines, containerization, deployment automation and monitoring solutions.
 
@@ -74,4 +74,4 @@ ISTIC, Tunisia – 2023
 - Email: amelbenhazem@gmail.com
 - Location: Tunisia
 
-**Open to Junior Software Engineer, Full Stack Developer and Cloud & DevOps opportunities.**
+**Open to Software Engineer, Full Stack Developer and Cloud & DevOps opportunities.**
