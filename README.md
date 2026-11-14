@@ -1,68 +1,77 @@
-# Portfolio — Amel Ben Hazem
+# Hi, I'm Amel Ben Hazem 👋
 
-Portfolio personnel en **Next.js 14** (App Router) + **TypeScript** + **Tailwind CSS** + **Framer Motion**, prêt à déployer sur Vercel.
+### Junior Software Engineer | Cloud & DevOps | Full Stack Developer
 
-## Stack
+🎓 Engineering graduate in Software Engineering and Information Systems (GLSI) – Tek-up University, Tunisia.
 
-- Next.js 14 (App Router)
-- TypeScript (strict)
-- Tailwind CSS
-- Framer Motion
-- Lucide React (icônes)
+I'm a junior software engineer passionate about building scalable web applications, cloud infrastructure, automation and DevOps practices.
 
-## Démarrage local
+I enjoy developing full-stack applications and implementing CI/CD pipelines, containerization, deployment automation and monitoring solutions.
 
-```bash
-npm install
-npm run dev
-```
+## 🚀 Technical Skills
 
-Ouvrir [http://localhost:3000](http://localhost:3000).
+**Frontend:** React.js, Next.js, Angular, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Bootstrap
 
-## Déploiement Vercel
+**Backend:** Node.js, NestJS, Express.js, Spring Boot, ASP.NET Core, REST APIs, JWT, WebSockets
 
-1. Pousser le repo sur GitHub
-2. Importer le projet sur [vercel.com](https://vercel.com)
-3. Déployer — aucune configuration supplémentaire requise
+**Cloud & DevOps:** Docker, Docker Compose, Kubernetes, k3s, Helm, Terraform, Ansible, Azure DevOps, GitHub Actions, GitLab CI/CD, AWS, Azure Stack Hub, Linux, Nginx
 
-## Structure du projet
+**Monitoring & DevSecOps:** Prometheus, Grafana, SonarQube, Snyk, Trivy, Nexus
 
-```
-portfolio/
-├── app/
-│   ├── layout.tsx       # Layout racine, fonts, SEO metadata
-│   ├── page.tsx         # Page d'accueil (assemblage des sections)
-│   └── globals.css      # Styles globaux Tailwind
-├── components/
-│   ├── Navbar.tsx       # Navigation sticky + menu mobile
-│   ├── Hero.tsx         # Section hero avec animations
-│   ├── About.tsx        # À propos + stats animées
-│   ├── Skills.tsx       # Grille de compétences
-│   ├── SkillCard.tsx    # Carte compétence individuelle
-│   ├── Projects.tsx     # Grille de projets
-│   ├── ProjectCard.tsx  # Carte projet individuelle
-│   ├── Contact.tsx      # Section contact
-│   ├── ContactForm.tsx  # Formulaire contrôlé (EmailJS/Resend ready)
-│   ├── Footer.tsx       # Pied de page
-│   ├── SocialIcons.tsx  # Icônes sociales réutilisables
-│   ├── SectionHeading.tsx
-│   └── AnimatedSection.tsx
-├── lib/
-│   └── data.ts          # Données centralisées (projets, skills, contact)
-└── public/
-    ├── images/          # Illustrations SVG + mockups projets
-    └── cv.pdf           # Votre CV (à ajouter)
-```
+**Databases:** PostgreSQL, MySQL, MongoDB, SQL Server, Redis
 
-## Personnalisation
+**Testing & Tools:** Jest, JUnit, Selenium, Git, GitHub, GitLab, Swagger
 
-- **Données** : modifier `lib/data.ts`
-- **CV** : placer votre fichier PDF dans `public/cv.pdf`
-- **Formulaire** : intégrer EmailJS ou Resend (instructions dans `ContactForm.tsx`)
-- **Couleurs** : palette dans `tailwind.config.ts`
+## ⭐ Featured Projects
 
-## Contact
+### 1. TicketManager – IT Helpdesk & DevOps
 
-- Email : amelbenhazem@gmail.com
-- LinkedIn : [linkedin.com/in/amal-ben-hazem](https://linkedin.com/in/amal-ben-hazem)
-- GitHub : [github.com/amelbenhazem](https://github.com/amelbenhazem)
+- Full-stack IT ticket management platform with role-based access control.
+- NestJS, Next.js, MongoDB, Socket.IO and JWT.
+- Docker, Kubernetes, Terraform and Azure DevOps.
+- CI/CD, automated testing, code quality and security scanning.
+- Prometheus and Grafana monitoring.
+
+[View Repository](https://github.com/amelbenhazem/TicketManager)
+
+### 2. SmartShopTn – Cloud Deployment & Monitoring
+
+- Next.js application deployment on DigitalOcean.
+- Docker, k3s, GitHub Actions and Nginx.
+- Monitoring with Prometheus and Grafana.
+
+[View Repository](https://github.com/amelbenhazem/SmartShopTn)
+
+### 3. MERN Chat Application – Docker & AWS
+
+- Real-time chat application.
+- Docker Compose, GitLab CI/CD and AWS EC2.
+
+### 4. ImmoConnect – Real Estate Platform
+
+- Real estate management web application.
+- ASP.NET Core 8 MVC, MySQL and Bootstrap.
+
+[View Repository](https://github.com/amelbenhazem/ImmoConnect)
+
+### 5. e-Care – Healthcare Web Platform
+
+- Healthcare platform with medical records, secure messaging and appointment management.
+- NestJS, Next.js and PostgreSQL.
+
+## 🎓 Education
+
+**Engineering Degree in Software Engineering and Information Systems (GLSI)**  
+Tek-up University, Tunisia – 2026
+
+**Bachelor's Degree in Information and Communication Technologies**  
+ISTIC, Tunisia – 2023
+
+## 📫 Let's Connect
+
+- LinkedIn: [amel-ben-hazem](https://linkedin.com/in/amel-ben-hazem)
+- GitHub: [amelbenhazem](https://github.com/amelbenhazem)
+- Email: amelbenhazem@gmail.com
+- Location: Tunisia
+
+**Open to Junior Software Engineer, Full Stack Developer and Cloud & DevOps opportunities.**
